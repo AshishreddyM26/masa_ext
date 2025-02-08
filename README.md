@@ -11,7 +11,7 @@ Use MASA with custom trained detection/segmentation model.
 from main import TrackerMASA
 masa_tracker = TrackerMASA()
 ```
-### 2. Pass the req
+### 2. Pass the Req
 ```sh
 # replace placeholders with your own paths
 
@@ -24,7 +24,7 @@ masa_config = "masa/configs/masa-one/masa_r50_plug_and_play.py"
 masa_checkpoint = "masa/saved_models/masa_models/masa_r50.pth"
 ```
 
-### 3. Run the MASA tracker
+### 3. Run the MASA Tracker
 ```sh
 masa_tracker.run_masa_tracking(video_root, video_sink, weights, masa_config, masa_checkpoint)
 
