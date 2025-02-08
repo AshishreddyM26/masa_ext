@@ -1,15 +1,66 @@
-Setting up the environment and installing the necessary packages (dependencies)
+# Setting up the environment and installing the necessary packages (dependencies)
 
-1. conda --version
-2. conda activate base
-3. conda activate masaenv
-4. pip install -U openmim
-5. mim install openmim
-6. mim install mmengine
-7. pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html 
-8. pip install git+https://github.com/open-mmlab/mmdetection.git@v3.3.0
-9. pip install -r masa/requirements.txt
-10. pip install huggingface_hub
-11. pip install ultralytics
-12. nltk.download('all')  # -- optional
-13. pip install ipywidgets # -- if an error occurs (optional)
+## Check conda version
+```sh
+conda --version
+```
+
+## Activate the base environment
+```sh
+conda activate base
+```
+
+## Activate the masaenv environment
+```sh
+conda activate masaenv
+```
+
+## Install openmim
+```sh
+pip install -U openmim
+```
+
+## Install mim
+```sh
+mim install openmim
+```
+
+## Install mmengine
+```sh
+mim install mmengine
+```
+
+## Install mmcv
+```sh
+pip install mmcv==2.1.0 -f https://download.openmmlab.com/mmcv/dist/cu118/torch2.1/index.html 
+```
+
+## Install mmdetection
+```sh
+pip install git+https://github.com/open-mmlab/mmdetection.git@v3.3.0
+```
+
+## Install required packages from masa/requirements.txt
+```sh
+pip install -r masa/requirements.txt
+```
+
+## Install huggingface_hub
+```sh
+pip install huggingface_hub
+```
+
+## Install ultralytics
+```sh
+pip install ultralytics
+```
+
+## Download all nltk data (optional)
+```sh
+nltk.download('all')
+```
+
+## Install ipywidgets (if an error occurs, optional)
+```sh
+pip install ipywidgets
+```
