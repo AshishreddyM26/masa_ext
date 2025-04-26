@@ -1,4 +1,4 @@
-# masa_custom_model
+# custom_masa
 Use MASA with custom trained detection/segmentation model.
 
 ## Installation
